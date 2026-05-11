@@ -1,5 +1,5 @@
 # Morse Code Translator by ZackFairTheOne
-# Translates your text to Morse Code, duh! Feel free to enhance since im dumb as fuck.
+# Translates your text to Morse Code, duh! Feel free to enhance since im dumb as fuck and also too lazy to enhance it.
 MORSE_CODE = {
     'A': '.-',    'B': '-...',  'C': '-.-.',
     'D': '-..',   'E': '.',     'F': '..-.',
@@ -32,6 +32,7 @@ def text_to_morse(text):
 
 # Why do i suck at coding?
 text = "Your Friendly Text here"
+# You and me both know what you will actually do with this
 
 print("Original:", text)
 print("Morse:", text_to_morse(text))
